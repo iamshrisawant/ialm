@@ -1,0 +1,40 @@
+# Virtual environment
+ialm/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Streamlit
+.streamlit/
+.secrets.toml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local data outputs (optional; keep private datasets out of version control)
+lab-two/outputs/*.csv
+lab-two/outputs/*.json
